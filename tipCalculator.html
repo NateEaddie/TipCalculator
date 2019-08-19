@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<!-- Link CSS and Javascript -->
+<head>
+    <link rel="stylesheet" type="text/css" href="tipCalcStyles.css">
+    <script type="text/javascript" src="tipCalcScript.js"></script>
+</head>
+<div class="container">
+<div id = "title">
+        <h1 id = "calcTitle">TIP CALCULATOR</h1>
+</div><!-- End title id -->
+
+<div id = "calculator">
+        <form>
+
+            <p id = "calcInputs">Bill:</p>
+            <input id = "bill" type="text" placeholder="amount" >
+            
+            <!-- Creates buttons that can increment/decrement values when clicked -->
+            <p id = "calcInputs">Tip %</p>
+            <button type = "button" class ="minus" onclick="decrement('tipPer');">-</button>
+            <input class = "buttonInput" id = "tipPer" type = "text" value = "0"/>
+            <button type = "button" class = "plus" onclick ="increment('tipPer');">+</button>
+
+            <p id = "calcInputs">Number of People:</p>
+            <button type = "button" class ="minus" onclick="decrement1('numPeople');">-</button>
+            <input class = "buttonInput" id = "numPeople" type = "text" value ="0"/>
+            <button type = "button" class = "plus" onclick ="increment1('numPeople');">+</button>
+
+            <!--Calculate totals -->
+            <button type ="button" id="calculate" onclick="calculateTip()">Calculate</button>
+
+            <!-- separte div class to insure tip and total output are inline with minimal space between lines-->
+            <div class="output">
+                <h2>Tip</h2>
+                <span id = "tipPerPerson">$0.00</span>
+                <p>per person</p>
+
+                <h2>Total</h2>
+                <span id = "totalPerPerson">$0.00</span>
+                <p>per person</p>
+
+            </div>
+
+            <h2 id ="full">Full Amount</h2>
+            <p id = "fullAmount">$0.00</p>
+
+
+        </form>
+
+</div><!-- End calculator id -->
+</div><!-- End container class -->
+</html>

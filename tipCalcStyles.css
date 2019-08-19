@@ -1,0 +1,108 @@
+#calculator{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: block;
+    overflow: auto;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px;
+    margin-top: 0px
+
+}
+
+#calcInputs{
+    opacity: 0.65;
+
+}
+#numPeople{
+    margin-bottom: 15px;
+}
+
+#calcTitle{
+    margin-top: -10px;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-size: large;
+}
+
+#title{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: rgba(0, 132, 255, 0.904); 
+    display: block;
+    overflow: auto;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 15px;
+    margin-bottom: 0px
+}
+
+#bill{
+    width: 175px;
+    border-radius: 25px;
+}
+
+.minus{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.plus{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#calculate{
+    margin: auto;
+    display:block;
+   
+}
+
+#fullAmount{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold; 
+    margin-top: 0px;
+    opacity: 0.8;
+
+}
+
+#full{
+    text-align: center;
+    margin-bottom: 0px;
+    opacity: 0.7;
+
+}
+
+
+
+.output h2{
+    display:inline;
+    opacity: 0.7;
+  }
+.output span{
+    float: right;  
+    opacity: 0.8;  
+}
+.output p{
+    margin-top: 0px;
+    opacity: 0.5;
+  }
+
+  input {
+    text-align: center
+  }
+
+  .plus{
+      background-color: darkgrey;
+  }
+  .minus{
+      background-color: darkgrey;
+  }
